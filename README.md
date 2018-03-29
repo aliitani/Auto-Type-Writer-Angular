@@ -1,17 +1,26 @@
-# auto-type-writer-js
-a js script that can be used as a feature that acts as a typing effect that is sort off like a type writer.
+# auto-type-writer-Angular 5
+A simple Attribute Directive for Angular 5 called Auto Type Writer.
 
 ## Overview:
-- includes a html file for testing
-- js file is `auto-type-writer.js`
-- will definitely add more features and flexibility to it
+- Implemented as an attribute directive for Angular 5.
+- since its an attribute directive, it has easy implementation.
+- i used setInterval() function (supported by almost all majorly used browsers).
+- since javascript engine has a single thread, i used multiple setInterval functions running independently of each other.
 
 ## Check it in Action:
 <a href="https://htmlpreview.github.io/?https://github.com/aliitani/auto-type-writer-js/master/index.html">Here!</a>
 
 ## Implementation:
-- i used setInterval() function (supported by almost all majorly used browsers).
-- since javascript engine has a single thread, i used multiple setInterval functions running independently of each other.
+>  Since its an attribute directive, simply pick any div you want:
+- Option 1:
+```sh
+  <div appAutoTypeWriter></div> 
+```
+- Option 2: 
+```sh
+  <p appAutoTypeWriter></p> 
+```
+
 
 ## Preview:
 
