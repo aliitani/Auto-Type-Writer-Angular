@@ -2,6 +2,7 @@
 A simple Attribute Directive for Angular 5 called Auto Type Writer.
 
 ## Overview:
+- Included with the directive an Angular CLI ver, 1.6.4 project.
 - Implemented as an attribute directive for Angular 5.
 - since its an attribute directive, it has easy implementation.
 - i used setInterval() function (supported by almost all majorly used browsers).
