@@ -7,8 +7,8 @@ A simple Attribute Directive for Angular 5 called Auto Type Writer.
 - i used setInterval() function (supported by almost all majorly used browsers).
 - since javascript engine has a single thread, i used multiple setInterval functions running independently of each other.
 
-## Check it in Action:
-<a href="https://htmlpreview.github.io/?https://github.com/aliitani/auto-type-writer-js/master/index.html">Here!</a>
+## Demo:
+Click <a href="https://htmlpreview.github.io/?https://github.com/aliitani/auto-type-writer-js/master/index.html">Here!</a>
 
 ## Implementation:
 >  Since its an attribute directive, simply pick any div you want:
